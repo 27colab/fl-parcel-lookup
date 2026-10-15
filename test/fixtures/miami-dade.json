@@ -1,0 +1,16 @@
+{
+  "_note": "Invented data in the shape of the Miami-Dade 'Property Boundary View' query response. Not real parcels or owners.",
+  "street": {
+    "features": [
+      { "attributes": { "FOLIO": "0100000000010", "LEGAL": "EXAMPLE PARK SUBD PB 1-1 LOT 5 BLK 2 LOT SIZE 5000 SQ FT", "TRUE_SITE_ADDR": "100 NW 7 ST", "TRUE_SITE_CITY": "Miami", "TRUE_SITE_ZIP_CODE": "33125-0000", "TRUE_OWNER1": "EXAMPLE HOLDINGS LLC", "TRUE_OWNER2": "SAMPLE, JANE Q", "TRUE_OWNER3": null }, "centroid": { "x": -80.2, "y": 25.78 } },
+      { "attributes": { "FOLIO": "0100000000010", "LEGAL": "EXAMPLE PARK SUBD PB 1-1 LOT 5 BLK 2 LOT SIZE 5000 SQ FT", "TRUE_SITE_ADDR": "100 NW 7 ST", "TRUE_SITE_CITY": "Miami", "TRUE_SITE_ZIP_CODE": "33125-0000", "TRUE_OWNER1": "EXAMPLE HOLDINGS LLC", "TRUE_OWNER2": "SAMPLE, JANE Q", "TRUE_OWNER3": null }, "centroid": { "x": -80.2, "y": 25.78 } },
+      { "attributes": { "FOLIO": "0100000000099", "LEGAL": "DECOY SUBD LOT 1", "TRUE_SITE_ADDR": "100 NW 7 STATION RD", "TRUE_SITE_CITY": "Miami", "TRUE_SITE_ZIP_CODE": "33125-0000", "TRUE_OWNER1": "DECOY OWNER", "TRUE_OWNER2": null, "TRUE_OWNER3": null } }
+    ]
+  },
+  "condo": {
+    "features": [
+      { "attributes": { "FOLIO": "0100000000021", "LEGAL": "SAMPLE TOWER CONDO UNIT 1503 UNDIV 0.1 INT IN COMMON ELEMENTS", "TRUE_SITE_ADDR": "200 NE 2 AVE 1503", "TRUE_SITE_CITY": "Miami", "TRUE_SITE_ZIP_CODE": "33132-0000", "TRUE_OWNER1": "ANOTHER EXAMPLE LLC" }, "centroid": { "x": -80.19, "y": 25.79 } },
+      { "attributes": { "FOLIO": "0100000000022", "LEGAL": "SAMPLE TOWER CONDO UNIT 1504 UNDIV 0.1 INT IN COMMON ELEMENTS", "TRUE_SITE_ADDR": "200 NE 2 AVE 1504", "TRUE_SITE_CITY": "Miami", "TRUE_SITE_ZIP_CODE": "33132-0000", "TRUE_OWNER1": "THIRD EXAMPLE LLC" }, "centroid": { "x": -80.19, "y": 25.79 } }
+    ]
+  }
+}

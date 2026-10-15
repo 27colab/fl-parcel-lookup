@@ -1,0 +1,20 @@
+name: Live contract check
+
+# Hits the real county ArcGIS services to detect endpoint or field drift.
+# Scheduled, never on pull requests, so an outage at a county can't block a PR.
+on:
+  schedule:
+    - cron: "17 9 * * 1"
+  workflow_dispatch:
+
+jobs:
+  live:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+      - run: npm run test:live

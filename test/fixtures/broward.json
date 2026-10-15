@@ -1,0 +1,22 @@
+{
+  "_note": "Invented data in the shape of the Broward GISAddressPoints and BCPA TaxRoll query responses. Not real parcels or owners.",
+  "points": {
+    "features": [
+      { "attributes": { "FOLIONUMBER": "000000AB0010", "SITUSFULLADDRESS": "300 NW 58th AVE", "CITYNAME": "SAMPLEVILLE", "ZIPCODE": "33313", "LATITUDE": 26.15, "LONGITUDE": -80.2 } },
+      { "attributes": { "FOLIONUMBER": "000000AB0010", "SITUSFULLADDRESS": "300 NW 58th AVE ", "CITYNAME": "SAMPLEVILLE", "ZIPCODE": "33313", "LATITUDE": 26.15, "LONGITUDE": -80.2 } },
+      { "attributes": { "FOLIONUMBER": null, "SITUSFULLADDRESS": "300 NW 58th AVE", "CITYNAME": "SAMPLEVILLE", "ZIPCODE": "33313", "LATITUDE": 26.15, "LONGITUDE": -80.2 } }
+    ]
+  },
+  "unitPoints": {
+    "features": [
+      { "attributes": { "FOLIONUMBER": "000000AC0030", "SITUSFULLADDRESS": "400 N SAMPLE HWY 103", "CITYNAME": "SAMPLEVILLE", "ZIPCODE": "33441", "LATITUDE": 26.3, "LONGITUDE": -80.08 } },
+      { "attributes": { "FOLIONUMBER": "000000AC0040", "SITUSFULLADDRESS": "400 N SAMPLE HWY 104", "CITYNAME": "SAMPLEVILLE", "ZIPCODE": "33441", "LATITUDE": 26.3, "LONGITUDE": -80.08 } }
+    ]
+  },
+  "taxRoll": {
+    "features": [
+      { "attributes": { "FOLIO": "000000AB0010", "NAME_LINE_1": "EXAMPLE PROPERTIES LLC", "NAME_LINE_2": null, "LEGAL_LINE_1": "SAMPLE ADDITION 1-2 B", "LEGAL_LINE_2": "LOT 7 BLK 4", "LEGAL_LINE_3": null, "SITUS_STREET_NUMBER": "300", "SITUS_STREET_DIRECTION": "NW", "SITUS_STREET_NAME": "58", "SITUS_STREET_TYPE": "AVE", "SITUS_STREET_POST_DIR": null, "SITUS_UNIT_NUMBER": null } },
+      { "attributes": { "FOLIO": "000000AC0030", "NAME_LINE_1": "SAMPLE OWNER INC", "NAME_LINE_2": null, "LEGAL_LINE_1": "SAMPLE BEACH CLUB COND UNIT 103", "LEGAL_LINE_2": null, "SITUS_STREET_NUMBER": "400", "SITUS_STREET_DIRECTION": "N", "SITUS_STREET_NAME": "SAMPLE", "SITUS_STREET_TYPE": "HWY", "SITUS_UNIT_NUMBER": "103" } }
+    ]
+  }
+}

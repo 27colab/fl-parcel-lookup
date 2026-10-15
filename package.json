@@ -1,0 +1,53 @@
+{
+  "name": "@27colab/fl-parcel-lookup",
+  "version": "0.1.0",
+  "description": "Look up Florida parcel folio numbers and legal descriptions (Miami-Dade, Broward, Palm Beach) from a Google Places address, using each county's public ArcGIS services.",
+  "keywords": [
+    "florida",
+    "parcel",
+    "folio",
+    "property",
+    "arcgis",
+    "miami-dade",
+    "broward",
+    "palm-beach",
+    "geocoding",
+    "google-places"
+  ],
+  "license": "MIT",
+  "private": false,
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    }
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE",
+    "docs"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.build.json",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run",
+    "test:live": "vitest run --config vitest.live.config.ts",
+    "prepublishOnly": "npm run typecheck && npm test && npm run build"
+  },
+  "publishConfig": {
+    "access": "public",
+    "provenance": true
+  },
+  "devDependencies": {
+    "@types/node": "^20.19.43",
+    "typescript": "~5.6",
+    "vitest": "^2.1.9"
+  }
+}

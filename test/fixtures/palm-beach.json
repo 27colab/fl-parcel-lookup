@@ -1,0 +1,14 @@
+{
+  "_note": "Invented data in the shape of the Palm Beach 'Parcels and Property Details' query response. Not real parcels or owners.",
+  "street": {
+    "features": [
+      { "attributes": { "PARCEL_NUMBER": "00424700000000100", "SITE_ADDR_STR": "500 SW 8TH ST", "LEGAL1": "EXAMPLE ESTATES PB 9 P 9", "LEGAL2": "LT 10 BLK 3", "LEGAL3": null, "OWNER_NAME1": "EXAMPLE FAMILY TRUST", "OWNER_NAME2": null }, "centroid": { "x": -80.1, "y": 26.35 } }
+    ]
+  },
+  "condo": {
+    "features": [
+      { "attributes": { "PARCEL_NUMBER": "00434700000100160", "SITE_ADDR_STR": "600 N SAMPLE WAY 1601E", "LEGAL1": "SAMPLE TOWERS COND              APT 1601E", "LEGAL2": null, "LEGAL3": null, "OWNER_NAME1": "EXAMPLE OWNER LLC", "OWNER_NAME2": null }, "centroid": { "x": -80.07, "y": 26.36 } },
+      { "attributes": { "PARCEL_NUMBER": "00434700000100170", "SITE_ADDR_STR": "600 N SAMPLE WAY 1602E", "LEGAL1": "SAMPLE TOWERS COND              APT 1602E", "LEGAL2": null, "LEGAL3": null, "OWNER_NAME1": "EXAMPLE OWNER TWO LLC", "OWNER_NAME2": null }, "centroid": { "x": -80.07, "y": 26.36 } }
+    ]
+  }
+}
