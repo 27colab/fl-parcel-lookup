@@ -15,6 +15,9 @@
     "google-places"
   ],
   "license": "MIT",
+  "repository": { "type": "git", "url": "git+https://github.com/27colab/fl-parcel-lookup.git" },
+  "homepage": "https://docs.27colab.com",
+  "bugs": { "url": "https://github.com/27colab/fl-parcel-lookup/issues" },
   "private": false,
   "type": "module",
   "main": "./dist/index.js",
